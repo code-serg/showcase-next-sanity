@@ -7,18 +7,13 @@ export default async function Home() {
 
   return (
     <div>
+      <p className="mt-3 text-xl text-gray-300"> Featuring</p>
       <h1 className="text-5xl font-extrabold">
-        Hello I&apos;m{' '}
         <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-          codeSerg
+          Next<span className="text-sm">.js</span> & Sanity.io
         </span>{' '}
       </h1>
-      <p className="mt-3 text-xl text-gray-600">
-        {' '}
-        Howdy! Check out these samples
-      </p>
       <h2 className="mt-20 font-bold text-gray-700 text-3xl">My Projects</h2>
-
       <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link
