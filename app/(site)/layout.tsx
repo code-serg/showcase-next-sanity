@@ -43,3 +43,6 @@ export default async function RootLayout({
     </html>
   );
 }
+
+// disable caching for fetch requests
+export const dynamic = 'force-dynamic';
