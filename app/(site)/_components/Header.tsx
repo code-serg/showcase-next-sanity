@@ -10,7 +10,7 @@ export default async function Header() {
       <Link href="/" className="font-bold hover:text-orange-400">
         Dev Showcase
       </Link>
-      <div className="flex items-center gap-5 text-lg">
+      <div className="flex items-center gap-8 text-lg">
         {pages.map((page) => (
           <Link
             key={page._id}
