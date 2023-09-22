@@ -7,7 +7,7 @@ export default async function Header() {
 
   return (
     <div className="flex items-center justify-between text-3xl">
-      <Link href="/" className="font-bold">
+      <Link href="/" className="font-bold hover:text-orange-400">
         Showcase
       </Link>
       <div className="flex items-center gap-5 text-lg">
@@ -15,7 +15,7 @@ export default async function Header() {
           <Link
             key={page._id}
             href={`/${page.slug}`}
-            className="hover:underline"
+            className="hover:text-orange-400"
           >
             {page.title}
           </Link>
