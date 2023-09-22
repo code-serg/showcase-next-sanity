@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div style="background-color: #083344d9; display: flex; justify-content: center; align-items: center; padding: 10px; margin-bottom: 10px">
+  <p align="center">
+    <img src="public/2023-09-22-dev-showcase.png" width="50" alt="logo">
+  </p>
+  <p align="center">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/showcase-next-sanity/next?color=green" alt="next-js-version">
+    <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/showcase-next-sanity/react?color=blue" alt="react-js-version">
+   <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/showcase-next-sanity/sanity?color=red" alt="sanity-version">
+   <img src="https://img.shields.io/github/package-json/dependency-version/code-serg/showcase-next-sanity/typescript?color=purple" alt="typescript-version">
+  </p>
+</div>
 
-## Getting Started
+# Dev Showcase
 
-First, run the development server:
+Dev Showcase is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). <br>
+It integrates Sanity Studio [Sanity.io](https://www.sanity.io) as a tool to allows users to create and edit content.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<p align="center">
+   <img src="public/showcase-next-sanity.png" alt="Screenshot of the app" width="800">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Content Creation**: Allow users to create/edit/delete content.
+- **Page Creation**: Allow users to create pages that are dynamically linked in the header.
+- **Server Side Rendering**: HTLM is pre-rendered on the server -> Improved SEO, lighter client, faster performance
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech
 
-## Learn More
+- **Backend**: Sanity.io
+- **Frontend**: Next.js with integrated Sanity.io Studio
+- **Other**: Typescript, Tailwind.css
 
-To learn more about Next.js, take a look at the following resources:
+## Installation / Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository: <br>
+   `git clone https://github.com/code-serg/showcase-next-sanity`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Install dependencies: <br>
+   `npm install` <br>
 
-## Deploy on Vercel
+3. Sanity Account
+   Get your free account with Sanity.io
+   Create a project, get the project ID
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Set up your `.env` file with necessary environment variables (use `.example.env` as template and adjust as needed):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - Sanity ProjectId and Dataset
+
+5. Run the application:
+   `npm run dev`
+
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Issues / Improvements
+
+- Implement catch-all URL redirect.
+- Customize Sanity Studio editing features
+
+## Credits
+
+Thanks to Kapehe from Sanity.io for the integration walk-through.
+
+## License
+
+This project operates under the MIT License.
