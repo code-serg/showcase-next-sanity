@@ -17,11 +17,10 @@ export default async function Project({ params }: Props) {
 
   return (
     <div>
-      <header className="flex justify-between items-center">
+      <header>
         <h1 className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-5xl font-extrabold">
           {project.name}
         </h1>
-        <h2> hi</h2>
       </header>
 
       {/* image */}
@@ -32,7 +31,7 @@ export default async function Project({ params }: Props) {
         height={1080}
         className="mt-10 border-2 border-gray-400 rounded-lg object-cover rounded-xl"
       />
-      <div className="flex justify-left">{project.caption}</div>
+      <div className="text-right text-sm">{project.caption}</div>
 
       {/* content is PortableTextBlock - array of blocks - and not assignable to ReactNode */}
       <div className="text-lg mt-5">
