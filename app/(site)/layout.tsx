@@ -14,7 +14,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" className="" style={{ height: '100%' }}>
-      <body className="max-w-5xl mx-auto py-10 bg-gradient-to-b from-cyan-950 to-cyan-800">
+      <body className="max-w-5xl mx-auto py-10 bg-gradient-to-b from-cyan-950 to-cyan-800 text-gray-200">
         <Header />
         <main className="py-20">{children}</main>
       </body>

@@ -7,13 +7,10 @@ export default async function Header() {
 
   return (
     <div className="flex items-center justify-between text-3xl">
-      <Link
-        href="/"
-        className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent font-bold"
-      >
+      <Link href="/" className="font-bold">
         Showcase
       </Link>
-      <div className="flex items-center gap-5 text-lg text-gray-600">
+      <div className="flex items-center gap-5 text-lg">
         {pages.map((page) => (
           <Link
             key={page._id}
