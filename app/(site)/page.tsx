@@ -13,15 +13,16 @@ export default async function Home() {
           Next<span className="text-sm">.js</span> & Sanity.io
         </span>{' '}
       </h1>
-      <h2 className="mt-20 font-bold text-3xl">Content</h2>
-      <div>The content can be created and edited within Sanity Studio!</div>
+      <div>(Content is created and edited within Sanity Studio! )</div>
+      <h2 className="mt-20 font-bold text-3xl">Landscapes</h2>
+
       <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Link
             // go to route 'projects' and pass the slug as a prop
             href={`/projects/${project.slug}`}
             key={project._id}
-            className="border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-gray-500 transition-all duration-500 ease-in-out"
+            className="flex flex-col justify-between border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-gray-500 transition-all"
           >
             {project.image && (
               <Image
@@ -32,10 +33,9 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             )}
-            <div className="font-extrabold text-orange-400 mt-2">
+            <div className="font-extrabold text-orange-400 my-3 text-center">
               {project.name}
             </div>
-            <p>{project.slug}</p>
           </Link>
         ))}
       </div>

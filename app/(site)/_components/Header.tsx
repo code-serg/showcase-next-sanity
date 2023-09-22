@@ -8,7 +8,7 @@ export default async function Header() {
   return (
     <div className="flex items-center justify-between text-3xl">
       <Link href="/" className="font-bold hover:text-orange-400">
-        Showcase
+        Dev Showcase
       </Link>
       <div className="flex items-center gap-5 text-lg">
         {pages.map((page) => (
