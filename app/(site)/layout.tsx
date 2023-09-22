@@ -1,6 +1,6 @@
-import { getPages } from '@/sanity/sanity-utils';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import Header from './_components/Header';
+import Footer from './_components/Footer';
 import '../globals.css';
 
 export const metadata: Metadata = {
@@ -13,32 +13,12 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // get all pages
-  const pages = await getPages();
-
   return (
-    <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
-        <header className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold"
-          >
-            codeSerg logo
-          </Link>
-          <div className="flex items-center gap-5 text-sm text-gray-600">
-            {pages.map((page) => (
-              <Link
-                key={page._id}
-                href={`/${page.slug}`}
-                className="hover:underline"
-              >
-                {page.title}
-              </Link>
-            ))}
-          </div>
-        </header>
+    <html lang="en" className="" style={{ height: '100%' }}>
+      <body className="mx-auto max-w-5xl px-10 py-10 bg-gradient-to-b from-cyan-950 to-cyan-800 text-gray-200">
+        <Header />
         <main className="py-20">{children}</main>
+        <Footer />
       </body>
     </html>
   );

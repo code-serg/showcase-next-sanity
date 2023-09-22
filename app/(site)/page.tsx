@@ -7,17 +7,14 @@ export default async function Home() {
 
   return (
     <div>
+      <p className="mt-3 text-xl"> Featuring</p>
       <h1 className="text-5xl font-extrabold">
-        Hello I&apos;m{' '}
-        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-          codeSerg
+        <span className="text-orange-400">
+          Next<span className="text-sm">.js</span> & Sanity.io
         </span>{' '}
       </h1>
-      <p className="mt-3 text-xl text-gray-600">
-        {' '}
-        Howdy! Check out these samples
-      </p>
-      <h2 className="mt-20 font-bold text-gray-700 text-3xl">My Projects</h2>
+      <div>(Content is created and edited within Sanity Studio! )</div>
+      <h2 className="mt-20 font-bold text-3xl">Landscapes</h2>
 
       <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
@@ -25,7 +22,7 @@ export default async function Home() {
             // go to route 'projects' and pass the slug as a prop
             href={`/projects/${project.slug}`}
             key={project._id}
-            className="border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-gray-500 transition-all duration-500 ease-in-out"
+            className="flex flex-col justify-between border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-gray-500 transition-all"
           >
             {project.image && (
               <Image
@@ -36,10 +33,9 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             )}
-            <div className="font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent mt-2">
+            <div className="font-extrabold text-orange-400 my-3 text-center">
               {project.name}
             </div>
-            <p>{project.slug}</p>
           </Link>
         ))}
       </div>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="65.706291mm"
+   height="65.991608mm"
+   viewBox="0 0 65.706291 65.991608"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch16">
+      <stop
+         style="stop-color:#281398;stop-opacity:1;"
+         offset="0"
+         id="stop16" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter29"
+       x="-0.01996927"
+       y="-0.032076728"
+       width="1.0399385"
+       height="1.0641535">
+      <feGaussianBlur
+         stdDeviation="0.0015912207"
+         id="feGaussianBlur29" />
+    </filter>
+  </defs>
+  <g
+     id="g48"
+     transform="translate(-27.957009,-19.999172)">
+    <g
+       id="g44"
+       transform="translate(-203.2781,-17.403457)">
+      <ellipse
+         style="display:inline;opacity:1;fill:#083344;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.23117;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:0.557793, 0.557793;stroke-dashoffset:0;stroke-opacity:0.93;paint-order:normal"
+         id="ellipse43"
+         cx="264.08826"
+         cy="70.398422"
+         rx="32.853149"
+         ry="32.9958" />
+    </g>
+    <g
+       id="g45"
+       transform="matrix(0.93168996,0,0,0.93168996,2.7180005,3.0941747)"
+       style="display:inline">
+      <circle
+         style="display:inline;opacity:0.76779;fill:#ffffff;fill-opacity:0;stroke:#f97316;stroke-width:2.21318;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:0.5533, 0.5533;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="circle44"
+         cx="62.377342"
+         cy="53.527725"
+         r="32.659016" />
+    </g>
+    <g
+       id="g47"
+       style="display:inline">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:'Tipus de lletra del sistema';-inkscape-font-specification:'Tipus de lletra del sistema';display:inline;opacity:0.76779;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#f97316;stroke-width:2.365;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:0.2365, 0.2365;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter29)"
+         x="38.816929"
+         y="71.086845"
+         id="text45"
+         transform="matrix(0.82026535,0,0,0.76273957,3.0967335,13.022776)"><tspan
+           id="tspan45"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:'Tipus de lletra del sistema';-inkscape-font-specification:'Tipus de lletra del sistema';fill:#ffffff;fill-opacity:1;stroke:#f97316;stroke-width:2.365;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:0.2365, 0.2365;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           x="38.816929"
+           y="71.086845">DS</tspan></text>
+    </g>
+  </g>
+</svg>

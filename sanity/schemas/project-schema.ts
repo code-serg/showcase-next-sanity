@@ -12,7 +12,7 @@ const project = {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      options: { source: 'name' }
+      options: { source: 'name' },
     },
     {
       name: 'image',
@@ -24,21 +24,21 @@ const project = {
           name: 'alt',
           title: 'Alt',
           type: 'string',
-        }
-      ]
+        },
+      ],
     },
     {
-      name: 'url',
-      title: 'URL',
-      type: 'url',
+      name: 'caption',
+      title: 'Caption',
+      type: 'string',
     },
     {
       name: 'content',
       title: 'Content',
       type: 'array',
-      of: [{ type: 'block' }]
-    }
-  ]
-}
+      of: [{ type: 'block' }],
+    },
+  ],
+};
 
 export default project;
