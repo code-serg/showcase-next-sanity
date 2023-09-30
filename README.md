@@ -19,6 +19,11 @@ It integrates Sanity Studio [Sanity.io](https://www.sanity.io) as a tool to allo
    <img src="public/showcase-next-sanity.png" alt="Screenshot of the app" width="800">
 </p>
 
+## Live Site
+
+- Deployed on Vercel (vercel.com)
+- App link: https://showcase-next-sanity.vercel.app
+
 ## Features
 
 - **Content Creation**: Allow users to create/edit/delete content.
